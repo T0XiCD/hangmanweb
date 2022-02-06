@@ -1,0 +1,19 @@
+{{if .state}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Le bon mot était "exemple"</h1>
+    {{else}}
+    <h1>Tente ta chance</h1>
+    <form method="post">
+      <label>word:</label><br />
+      <input type="text" name="w"><br />
+      <input type="submit">
+      <a href="/">Retour a l'aceuil</a>
+    </form>
+    {{end}}
+  </body>
+</html>
